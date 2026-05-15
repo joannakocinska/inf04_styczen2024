@@ -1,17 +1,24 @@
-1. PESEL-Validator (Python)
-Opis: Skrypt konsolowy do zaawansowanej walidacji i ekstrakcji danych z numeru PESEL.
-Technologie: Python
+# 🚀 Egzamin Zawodowy INF.04 
+Jeden z rozwiązanych arkuszy
 
-Kluczowe funkcje: 
-Implementacja algorytmu sumy kontrolnej opartej na wagach systemowych.
-Logika rozpoznawania płci oraz walidacja struktury danych wejściowych.
-Obsługa wyjątków i zapewnienie czytelnej komunikacji z użytkownikiem (CLI).
+---
 
-2. Passport-Data-Manager (C# / WPF)
-Opis: Aplikacja desktopowa typu CRUD/Entry do zarządzania bazą danych paszportowych z dynamicznym podglądem biometrycznym.
-Technologie: C#, .NET, WPF (XAML)
+### 🐍 1. PESEL-Validator
+**Opis:** skrypt służący do zaawansowanej walidacji oraz ekstrakcji danych z numeru PESEL.  
+**Technologie:** `Python`
 
-Kluczowe funkcje:
-Dynamic UI Updates: Automatyczne renderowanie zasobów graficznych (zdjęcia, odciski) na podstawie zdarzeń LostFocus / TextChanged.
-Data Validation: Logika weryfikacji kompletności formularza przed przetwarzaniem danych.
-XAML Styling: Autorski interfejs użytkownika z wykorzystaniem niestandardowej palety kolorów i kontrolek typu Radio Groups.
+**Kluczowe funkcjonalności:**
+* **Algorytmika:** Pełna implementacja sumy kontrolnej opartej na wagach systemowych (1, 3, 7, 9, 1, 3, 7, 9, 1, 3).
+* **Data Extraction:** Automatyczne rozpoznawanie płci użytkownika na podstawie analizy 10. cyfry numeru.
+* **User Experience:** Obsługa wyjątków dla błędnych danych wejściowych oraz czytelne komunikaty zwrotne w terminalu.
+
+---
+
+### 🖼️ 2. Passport-Data-Manager
+**Opis:** Aplikacja desktopowa typu Entry/Management do obsługi danych paszportowych, kładąca nacisk na dynamiczną reakcję interfejsu i walidację biometryczną.  
+**Technologie:** `C#`, `.NET`, `WPF (XAML)`
+
+**Kluczowe funkcjonalności:**
+* **Dynamic UI Updates:** System automatycznego renderowania zasobów graficznych (zdjęcia profilowe, odciski palców) wyzwalany zdarzeniami **LostFocus** oraz **TextChanged**.
+* **Data Validation:** Logika sprawdzająca kompletność i spójność formularza przed dopuszczeniem do przetwarzania danych.
+* **Modern UI (XAML):** Autorska stylizacja interfejsu z wykorzystaniem niestandardowej palety kolorów (*CadetBlue*, *Azure*) oraz zaawansowanych kontrolek typu *Radio Groups*.
